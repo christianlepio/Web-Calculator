@@ -1,0 +1,11 @@
+h1{
+    font-family: cursive;
+}
+body{
+    background-color: white;
+    color: black;
+}
+.dark-mode{
+    background-color: #1f2a38;
+    color: white;
+}
