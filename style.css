@@ -16,7 +16,7 @@ div{
 #sun{
     display: none;
 }
-.fa-sun:hover, .fa-moon:hover{
+.bi-brightness-high:hover, .fa-moon:hover{
     cursor: pointer;
     -ms-transform: scale(0.91); /* IE 9 */
     -webkit-transform: scale(0.91); /* Safari 3-8 */
