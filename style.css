@@ -18,8 +18,7 @@ div{
 }
 .fa-sun:hover, .fa-moon:hover{
     cursor: pointer;
-    -ms-transform: scale(0.95); /* IE 9 */
-    -webkit-transform: scale(0.95); /* Safari 3-8 */
-    transform: scale(0.95);
-    transition: .5s cubic-bezier(.52,1.65,1,1.31);
+    -ms-transform: scale(0.91); /* IE 9 */
+    -webkit-transform: scale(0.91); /* Safari 3-8 */
+    transform: scale(0.91);
 }
