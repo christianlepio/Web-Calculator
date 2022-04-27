@@ -22,3 +22,7 @@ div{
     -webkit-transform: scale(0.91); /* Safari 3-8 */
     transform: scale(0.91);
 }
+.tble{
+    width: 75vmin;
+    border: 1px solid #1f2a38;
+}
