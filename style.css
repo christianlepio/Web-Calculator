@@ -1,11 +1,24 @@
 h1{
-    font-family: cursive;
+        font-family: sans-serif;
 }
 body{
     background-color: white;
-    color: black;
+    color: #1f2a38;
 }
+/**
+div{
+    border: 1px  solid black;
+}**/
 .dark-mode{
     background-color: #1f2a38;
     color: white;
+}
+#sun{
+    display: none;
+}
+.fa-moon:hover{
+    text-shadow: 1px 0px 2px rgba(150, 150, 150, 1);
+}
+.fa-sun:hover{
+    text-shadow: 1px 0px 2px rgba(255, 255, 255, 1);
 }
