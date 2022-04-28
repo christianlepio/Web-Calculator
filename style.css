@@ -26,3 +26,6 @@ div{
     width: 75vmin;
     border: 1px solid #1f2a38;
 }
+td{
+    cursor: pointer;
+}
