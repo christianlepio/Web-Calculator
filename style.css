@@ -24,8 +24,10 @@ div{
 }
 .tble{
     width: 75vmin;
-    border: 1px solid #1f2a38;
 }
 td{
     cursor: pointer;
+    padding: 1.5em;
+    border: 1px  solid black;
+    border-radius: 100px;
 }
