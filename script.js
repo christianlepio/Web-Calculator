@@ -1,3 +1,28 @@
+let bobo = document.querySelector('#lanz');
+let text="";
+
+let temp=0;
+
+process = () => {
+    let otpt 
+    otpt = eval(bobo.value);
+    bobo.value = otpt;
+}
+
+plusMin = () => {
+}
+
+del = () => {
+    let a = bobo.value.length;
+    
+    for(let i=0 ; i<a-1 ; i++){
+        text += bobo.value.charAt(i);
+    }
+    
+    bobo.value=text;
+    text="";
+}
+
 function darkMode(){
     var element = document.body
     element.classList.add("dark-mode")
