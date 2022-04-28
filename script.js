@@ -26,6 +26,8 @@ del = () => {
 darkMode = () =>{
     var element = document.body
     element.classList.add("dark-mode")
+    var tblelement = document.getElementById("tbldark")
+
     document.getElementById("night").style.display="none"
     document.getElementById("sun").style.display="block"
 }
