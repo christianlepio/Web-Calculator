@@ -9,13 +9,22 @@ body{
 div{
     border: 1px  solid black;
 }**/
+
 .dark-mode{
     background-color: #1f2a38;
+    color: white;
+}
+.darktbl th{
+    border-bottom: 2px solid white !important;
+}
+.darktbl td{
     color: white;
 }
 #sun{
     display: none;
 }
+
+
 .bi-brightness-high:hover, .fa-moon:hover{
     cursor: pointer;
     -ms-transform: scale(0.91); /* IE 9 */

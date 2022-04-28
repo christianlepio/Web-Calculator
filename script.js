@@ -23,17 +23,18 @@ del = () => {
     text="";
 }
 
+var element = document.body
+var tblelement = document.getElementById("tbldark")
 darkMode = () =>{
-    var element = document.body
     element.classList.add("dark-mode")
-    var tblelement = document.getElementById("tbldark")
+    tblelement.classList.add("darktbl")
 
     document.getElementById("night").style.display="none"
     document.getElementById("sun").style.display="block"
 }
 lightMode = () =>{
-    var element = document.body
     element.classList.remove("dark-mode")
+    tblelement.classList.remove("darktbl")
     document.getElementById("sun").style.display="none"
     document.getElementById("night").style.display="block"
 }
