@@ -27,7 +27,5 @@ div{
 }
 td{
     cursor: pointer;
-    padding: 1.5em;
-    border: 1px  solid black;
-    border-radius: 100px;
+    padding: 1.5em !important;
 }

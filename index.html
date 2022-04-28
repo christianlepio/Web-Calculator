@@ -21,42 +21,42 @@
         <h1 class="fs-1 fw-bold text-center mt-3">WEB CALCULATOR</h1>
         <div class="container">
             <div class="row justify-content-center">
-                <table class="tble mt-3">
+                <table class="table tble mt-3">
                     <thead class="text-end">
                         <tr>
-                            <th colspan="4"><input type="text" class="form-control text-end fs-2" name="lanz" id="lanz" placeholder="0"></th>
+                            <th colspan="4"><input type="text" class="form-control text-end fs-2 py-3" name="lanz" id="lanz" placeholder="0"></th>
                         </tr>
                     </thead>
                     <tbody class="text-center">
                         <tr>
-                            <td onclick="document.querySelector('#lanz').value = null">AC</td>
-                            <td onclick="del()">DEL</td>
-                            <td onclick="plusMin()">+/-</td>
-                            <td onclick="document.querySelector('#lanz').value += '/'">/</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value = null">AC</td>
+                            <td class="fw-bold" onclick="del()">DEL</td>
+                            <td class="fw-bold" onclick="plusMin()">+/-</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += '/'">/</td>
                         </tr>
                         <tr>
-                            <td onclick="document.querySelector('#lanz').value += 7">7</td>
-                            <td onclick="document.querySelector('#lanz').value += 8">8</td>
-                            <td onclick="document.querySelector('#lanz').value += 9">9</td>
-                            <td onclick="document.querySelector('#lanz').value += '*'">*</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += 7">7</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += 8">8</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += 9">9</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += '*'">*</td>
                         </tr>
                         <tr>
-                            <td onclick="document.querySelector('#lanz').value += 4">4</td>
-                            <td onclick="document.querySelector('#lanz').value += 5">5</td>
-                            <td onclick="document.querySelector('#lanz').value += 6">6</td>
-                            <td onclick="document.querySelector('#lanz').value += '-'">-</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += 4">4</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += 5">5</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += 6">6</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += '-'">-</td>
                         </tr>
                         <tr>
-                            <td onclick="document.querySelector('#lanz').value += 1">1</td>
-                            <td onclick="document.querySelector('#lanz').value += 2">2</td>
-                            <td onclick="document.querySelector('#lanz').value += 3">3</td>
-                            <td onclick="document.querySelector('#lanz').value += '+'">+</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += 1">1</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += 2">2</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += 3">3</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += '+'">+</td>
                         </tr>
                         <tr>
-                            <td onclick="document.querySelector('#lanz').value += '%'">%</td>
-                            <td onclick="document.querySelector('#lanz').value += 0">0</td>
-                            <td onclick="document.querySelector('#lanz').value += '.'">.</td>
-                            <td onclick="process()" id="eq">=</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += '%'">%</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += 0">0</td>
+                            <td class="fw-bold" onclick="document.querySelector('#lanz').value += '.'">.</td>
+                            <td class="fw-bold" onclick="process()" id="eq">=</td>
                         </tr>
                     </tbody>
                 </table>
