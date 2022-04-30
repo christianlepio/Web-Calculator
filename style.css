@@ -18,8 +18,6 @@ div{
     background-color: #1f2a38;
     color: white;
 }
-.darktbl th{
-}
 .darktbl td{
     color: white;
 }
@@ -44,4 +42,5 @@ td{
     height: 10vh !important;
     width: 10vmax !important;
     margin: auto;
+    border-radius: 1.5em;
 }
