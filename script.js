@@ -28,6 +28,7 @@ var tblelement = document.getElementById("tbldark")
 var ac = document.querySelector(".ac")
 var del = document.querySelector('.del')
 var perc = document.querySelector('.perc')
+var divi = document.querySelector('.divi')
 
 darkMode = () =>{
     element.classList.add("dark-mode")
@@ -35,6 +36,7 @@ darkMode = () =>{
     ac.classList.add("acdark")
     del.classList.add("deldark")
     perc.classList.add("percdark")
+    divi.classList.add("dividark")
 
     document.getElementById("night").style.display="none"
     document.getElementById("sun").style.display="block"
@@ -45,6 +47,7 @@ lightMode = () =>{
     ac.classList.remove("acdark")
     del.classList.remove("deldark")
     perc.classList.remove("percdark")
+    divi.classList.remove("dividark")
 
     document.getElementById("sun").style.display="none"
     document.getElementById("night").style.display="block"

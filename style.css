@@ -30,6 +30,9 @@ div{
 .percdark{
     background-color: #ffc107 !important;
 }
+.dividark{
+    background-color: #198754 !important;
+}
 #sun{
     display: none;
 }
