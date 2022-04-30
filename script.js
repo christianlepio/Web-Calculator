@@ -64,3 +64,6 @@ lightMode = () =>{
     document.getElementById("sun").style.display="none"
     document.getElementById("night").style.display="block"
 }
+clickSound = () =>{
+    
+}
