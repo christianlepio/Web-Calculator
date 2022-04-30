@@ -1,8 +1,10 @@
 let bobo = document.querySelector('#lanz');
 let text="";
 
-const clickSound = new Audio('sound/click1.wav');
-const equalSound = new Audio('sound/equals.wav');
+const clickSound = new Audio('sound/click1.wav')
+const equalSound = new Audio('sound/equals.wav')
+const morning = new Audio('sound/morning.wav')
+const night = new Audio('sound/night.wav')
 
 process = () => {
     let otpt 
@@ -36,6 +38,7 @@ var plus = document.querySelector('.plus')
 var equals = document.querySelector('.equal')
 
 darkMode = () =>{
+    night.play()
     element.classList.add("dark-mode")
     tblelement.classList.add("darktbl")
     ac.classList.add("acdark")
@@ -51,6 +54,7 @@ darkMode = () =>{
     document.getElementById("sun").style.display="block"
 }
 lightMode = () =>{
+    morning.play()
     element.classList.remove("dark-mode")
     tblelement.classList.remove("darktbl")
     ac.classList.remove("acdark")
