@@ -29,6 +29,7 @@ var ac = document.querySelector(".ac")
 var del = document.querySelector('.del')
 var perc = document.querySelector('.perc')
 var divi = document.querySelector('.divi')
+var multi = document.querySelector('.multi')
 
 darkMode = () =>{
     element.classList.add("dark-mode")
@@ -37,6 +38,7 @@ darkMode = () =>{
     del.classList.add("deldark")
     perc.classList.add("percdark")
     divi.classList.add("dividark")
+    multi.classList.add("multidark")
 
     document.getElementById("night").style.display="none"
     document.getElementById("sun").style.display="block"
@@ -48,6 +50,7 @@ lightMode = () =>{
     del.classList.remove("deldark")
     perc.classList.remove("percdark")
     divi.classList.remove("dividark")
+    multi.classList.remove("multidark")
 
     document.getElementById("sun").style.display="none"
     document.getElementById("night").style.display="block"
