@@ -1,7 +1,8 @@
 let bobo = document.querySelector('#lanz');
 let text="";
 
-const clickSound = new Audio("sound/click1.wav")
+const clickSound = new Audio('sound/click1.wav');
+const equalSound = new Audio('sound/equals.wav');
 
 process = () => {
     let otpt 
@@ -64,6 +65,9 @@ lightMode = () =>{
     document.getElementById("sun").style.display="none"
     document.getElementById("night").style.display="block"
 }
-clickSound = () =>{
+sound = () =>{
     clickSound.play()
+}
+soundEqual = () =>{
+    equalSound.play()
 }

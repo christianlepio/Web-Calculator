@@ -29,33 +29,33 @@
                     </thead>
                     <tbody class="text-center">
                         <tr>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value = null"><div class="border spanbutt ac"><br>AC</div></td>
-                            <td class="fw-bold py-2" onclick="del()"><div class="border spanbutt dele"><br>DEL</div></td>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '%'"><div class="border spanbutt perc"><br>%</div></td>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '/'"><div class="border spanbutt divi"><br>/</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value = null; sound();"><div class="border spanbutt ac"><br>AC</div></td>
+                            <td class="fw-bold py-2" onclick="del(); sound();"><div class="border spanbutt dele"><br>DEL</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '%'; sound();"><div class="border spanbutt perc"><br>%</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '/'; sound();"><div class="border spanbutt divi"><br>/</div></td>
                         </tr>
                         <tr>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 7"><div class="border spanbutt"><br>7</div></td>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 8"><div class="border spanbutt"><br>8</div></td>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 9"><div class="border spanbutt"><br>9</div></td>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '*'"><div class="border spanbutt multi"><br>*</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 7; sound();"><div class="border spanbutt"><br>7</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 8; sound();"><div class="border spanbutt"><br>8</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 9; sound();"><div class="border spanbutt"><br>9</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '*'; sound();"><div class="border spanbutt multi"><br>*</div></td>
                         </tr>
                         <tr>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 4"><div class="border spanbutt"><br>4</div></td>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 5"><div class="border spanbutt"><br>5</div></td>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 6"><div class="border spanbutt"><br>6</div></td>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '-'"><div class="border spanbutt mini"><br>-</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 4; sound();"><div class="border spanbutt"><br>4</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 5; sound();"><div class="border spanbutt"><br>5</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 6; sound();"><div class="border spanbutt"><br>6</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '-'; sound();"><div class="border spanbutt mini"><br>-</div></td>
                         </tr>
                         <tr>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 1"><div class="border spanbutt"><br>1</div></td>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 2"><div class="border spanbutt"><br>2</div></td>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 3"><div class="border spanbutt"><br>3</div></td>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '+'"><div class="border spanbutt plus"><br>+</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 1; sound();"><div class="border spanbutt"><br>1</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 2; sound();"><div class="border spanbutt"><br>2</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 3; sound();"><div class="border spanbutt"><br>3</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '+'; sound();"><div class="border spanbutt plus"><br>+</div></td>
                         </tr>
                         <tr>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '.'"><div class="border spanbutt"><br>.</div></td>
-                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 0"><div class="border spanbutt"><br>0</div></td>
-                            <td colspan="2" class="fw-bold py-2" onclick="process()" id="eq"><div class="border spanbutt1 equal"><br>=</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '.'; sound();"><div class="border spanbutt"><br>.</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 0; sound();"><div class="border spanbutt"><br>0</div></td>
+                            <td colspan="2" class="fw-bold py-2" onclick="process(); soundEqual();" id="eq"><div class="border spanbutt1 equal"><br>=</div></td>
                         </tr>
                     </tbody>
                 </table>
