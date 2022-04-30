@@ -50,6 +50,12 @@ td{
     margin: auto;
     border-radius: 1.5em;
 }
+.spanbutt1{
+    height: 10vh !important;
+    width: 21vmax !important;
+    margin: auto;
+    border-radius: 1.5em;
+}
 input{
     border-radius: 0.8em !important;
 }
