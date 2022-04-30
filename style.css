@@ -21,6 +21,10 @@ div{
 .darktbl td{
     color: white;
 }
+.acdark{
+    background-color: #dc3545 !important;
+    color: white;
+}
 #sun{
     display: none;
 }
