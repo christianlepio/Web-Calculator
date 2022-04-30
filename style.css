@@ -44,3 +44,6 @@ td{
     margin: auto;
     border-radius: 1.5em;
 }
+input{
+    border-radius: 0.8em !important;
+}
