@@ -26,7 +26,7 @@ del = () => {
 var element = document.body
 var tblelement = document.getElementById("tbldark")
 var ac = document.querySelector(".ac")
-var del = document.querySelector('.del')
+var del = document.querySelector('.dele')
 var perc = document.querySelector('.perc')
 var divi = document.querySelector('.divi')
 var multi = document.querySelector('.multi')
