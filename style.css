@@ -2,9 +2,9 @@ h1{
     font-family: 'Courier New', Courier, monospace;
 }
 body{
-    overflow-x: hidden;
     background-color: white;
     color: #1f2a38;
+    overflow-x: hidden !important;
 }
 footer p{
     color: rgb(211, 211, 211);
@@ -19,7 +19,6 @@ div{
     color: white;
 }
 .darktbl th{
-    border-bottom: 2px solid white !important;
 }
 .darktbl td{
     color: white;
@@ -40,4 +39,9 @@ div{
 }
 td{
     cursor: pointer;
+}
+.spanbutt{
+    height: 10vh !important;
+    width: 10vmax !important;
+    margin: auto;
 }

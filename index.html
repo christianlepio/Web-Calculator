@@ -22,41 +22,41 @@
         <div class="container">
             <div class="row justify-content-center">
                 <table class="table  table-borderless tble mt-3" id="tbldark">
-                    <thead class="text-end">
+                    <thead class="text-center">
                         <tr>
-                            <th colspan="4"><input type="text" class="form-control text-end fs-2 py-3" name="lanz" id="lanz" placeholder="0"></th>
+                            <th colspan="4" class="px-4"><input type="text" class="form-control text-end fs-2 py-3" name="lanz" id="lanz" placeholder="0"></th>
                         </tr>
                     </thead>
                     <tbody class="text-center">
                         <tr>
-                            <td class="fw-bold py-3 px-0 border rounded-circle spanbutt" onclick="document.querySelector('#lanz').value = null"><span class="">AC</span></td>
-                            <td class="fw-bold py-3 px-0" onclick="del()"><span class="border rounded spanbutt">DEL</span></td>
-                            <td class="fw-bold py-3 px-0" onclick="plusMin()"><span class="border rounded spanbutt">+/-</span></td>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += '/'"><span class="border rounded spanbutt">/</span></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value = null"><div class="border rounded spanbutt">AC</div></td>
+                            <td class="fw-bold py-2" onclick="del()"><div class="border rounded spanbutt">DEL</div></td>
+                            <td class="fw-bold py-2" onclick="plusMin()"><div class="border rounded spanbutt">+/-</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '/'"><div class="border rounded spanbutt">/</div></td>
                         </tr>
                         <tr>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += 7"><span class="border rounded spanbutt">7</span></td>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += 8"><span class="border rounded spanbutt">8</span></td>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += 9"><span class="border rounded spanbutt">9</span></td>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += '*'"><span class="border rounded spanbutt">*</span></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 7"><div class="border rounded spanbutt">7</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 8"><div class="border rounded spanbutt">8</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 9"><div class="border rounded spanbutt">9</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '*'"><div class="border rounded spanbutt">*</div></td>
                         </tr>
                         <tr>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += 4"><span class="border rounded spanbutt">4</span></td>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += 5"><span class="border rounded spanbutt">5</span></td>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += 6"><span class="border rounded spanbutt">6</span></td>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += '-'"><span class="border rounded spanbutt">-</span></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 4"><div class="border rounded spanbutt">4</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 5"><div class="border rounded spanbutt">5</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 6"><div class="border rounded spanbutt">6</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '-'"><div class="border rounded spanbutt">-</div></td>
                         </tr>
                         <tr>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += 1"><span class="border rounded spanbutt">1</span></td>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += 2"><span class="border rounded spanbutt">2</span></td>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += 3"><span class="border rounded spanbutt">3</span></td>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += '+'"><span class="border rounded spanbutt">+</span></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 1"><div class="border rounded spanbutt">1</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 2"><div class="border rounded spanbutt">2</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 3"><div class="border rounded spanbutt">3</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '+'"><div class="border rounded spanbutt">+</div></td>
                         </tr>
                         <tr>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += '%'"><span class="border rounded spanbutt">%</span></td>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += 0"><span class="border rounded spanbutt">0</span></td>
-                            <td class="fw-bold py-3 px-0" onclick="document.querySelector('#lanz').value += '.'"><span class="border rounded spanbutt">.</span></td>
-                            <td class="fw-bold py-3 px-0" onclick="process()" id="eq"><span class="border rounded spanbutt">=</span></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '%'"><div class="border rounded spanbutt">%</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += 0"><div class="border rounded spanbutt">0</div></td>
+                            <td class="fw-bold py-2" onclick="document.querySelector('#lanz').value += '.'"><div class="border rounded spanbutt">.</div></td>
+                            <td class="fw-bold py-2" onclick="process()" id="eq"><div class="border rounded spanbutt">=</div></td>
                         </tr>
                     </tbody>
                 </table>
@@ -69,7 +69,6 @@
             </div>
         </footer>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
