@@ -36,6 +36,9 @@ div{
 .multidark{
     background-color: #0d6efd !important;
 }
+.minidark{
+    background-color: #6610f2 !important;
+}
 #sun{
     display: none;
 }
