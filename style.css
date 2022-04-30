@@ -2,6 +2,7 @@ h1{
     font-family: 'Courier New', Courier, monospace;
 }
 body{
+    overflow-x: hidden;
     background-color: white;
     color: #1f2a38;
 }
