@@ -63,8 +63,9 @@ td{
     cursor: pointer;
 }
 td:active{
-    background-color: #666666;
+    background-color: #b1aeae;
     border-radius: 1.5em;
+    color: white;
 }
 .spanbutt{
     height: 10vh !important;
