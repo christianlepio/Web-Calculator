@@ -63,7 +63,7 @@ td{
     cursor: pointer;
 }
 td:hover{
-    background-color: #0d6efd;
+    background-color: #666666;
 }
 .spanbutt{
     height: 10vh !important;
