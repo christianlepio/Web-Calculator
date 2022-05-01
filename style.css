@@ -62,7 +62,7 @@ div{
 td{
     cursor: pointer;
 }
-td:hover{
+td:active{
     background-color: #707070;
     border-radius: 1.5em;
     color: white;
