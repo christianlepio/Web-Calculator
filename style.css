@@ -64,6 +64,7 @@ td{
 }
 td:active{
     background-color: #666666;
+    border-radius: 1.5em;
 }
 .spanbutt{
     height: 10vh !important;
