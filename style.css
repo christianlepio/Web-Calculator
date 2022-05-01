@@ -62,7 +62,7 @@ div{
 td{
     cursor: pointer;
 }
-td:hover{
+td:active{
     background-color: #666666;
 }
 .spanbutt{
