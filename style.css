@@ -60,7 +60,7 @@ div{
     width: 75vmin;
 }
 td{
-    cursor: pointer;
+    cursor: pointer
 }
 td:active{
     background-color: #707070;
